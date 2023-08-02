@@ -54,7 +54,9 @@ function initial() {
 }
 
 var corsOptions = {
-  origin: ["http://localhost:8081"],
+  //origin: ["http://localhost:8081"],
+  origin: ["https://main--inspiring-strudel-a28b4f.netlify.app/home"],
+  
   credentials: true
 };
 
